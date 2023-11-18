@@ -16,4 +16,3 @@ JOIN
 -- Junção com a tabela FatoCabecalho para obter informações sobre a ordem de venda
 GROUP BY
     Detalhes.CupomID, Produtos.Produto;
--- Agrupamento pelos campos CupomID e Produto para agregar os resultados
